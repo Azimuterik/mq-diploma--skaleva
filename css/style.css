@@ -26,10 +26,26 @@ body {
     font-family: Open Sans, Arial, sans-serif; 
 }
 
+@media (max-width: 640px) {
+    .header {
+        background-image: url(../images/banner-mobile.jpg); 
+    }
+    .menu-list {
+        display: none;
+    }
+}
+
+
+@media (min-width: 641px) {
+    
+}
+
+
+
 .header {
     /* width: 50%; */
     outline: red solid 1px;
-    background-image: url(../images/banner-mobile.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #666666;
