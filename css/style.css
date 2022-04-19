@@ -1,3 +1,18 @@
-h1 {
-    color: red;
+@font-face {
+    font-family: Open Sans;
+    src: url(/fonts/OpenSans-Regular.woff);
+    src: url(/fonts/OpenSans-Regular.woff2);
+    src: url(/fonts/OpenSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: Open Sans;
+    src: url(/fonts/OpenSans-Bold.ttf);
+    src: url(/fonts/OpenSans-Bold.woff);
+    src: url(/fonts/OpenSans-Bold.woff2);
+    font-weight: 900;
+    font-style: normal;
+}
+
