@@ -29,7 +29,7 @@ body {
 .header {
     width: 50%;
     outline: red solid 1px;
-    background-image: url(images\banner-mobile.jpg-mobile.jpg);
+    background-image: url(.\images\banner-mobile.jpg-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #666666;
