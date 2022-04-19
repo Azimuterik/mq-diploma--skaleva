@@ -16,3 +16,31 @@
     font-style: normal;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Open Sans, Arial, sans-serif; 
+}
+
+.header {
+    background-image: url(/images/banner-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #666666;
+    position: relative;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
