@@ -77,17 +77,18 @@ body {
 
 }
 
-.header-container:first-child {
-    align-items: flex-end;
-    padding-bottom: 300px;
+.header-menu-container:first-child {
+    align-self: flex-end;
+    padding-bottom: 250px;
 }
 
 .button-menu {
+    border: none;
     margin-right: 1em;
     margin-top: 1.5em;
     position: relative;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 24px;
     width: 1em;
     height: 1em;
     border-radius: 5px;
@@ -105,7 +106,7 @@ body {
     height: 3px;
     border-radius: 5px;
     background-color: #ffffff;
-    top: 9px;
+    top: 10px;
     left: 0px;
 
   }
