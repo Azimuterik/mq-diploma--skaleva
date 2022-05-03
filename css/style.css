@@ -44,6 +44,8 @@ body {
 
 .header {
     /* width: 50%; */
+    /* font-size: 20px; */
+    
     outline: red solid 1px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -67,7 +69,10 @@ body {
 
 
 .header-container {
-    /* display: flex; */
+    outline: rgb(23, 38, 172) 1px solid;
+    padding: 32px 18px 210px;
+    /* padding-bottom: 250px; */
+    
     align-items: center;
     display: flex;
     flex: wrap;
@@ -78,21 +83,26 @@ body {
 }
 
 .header-menu-container:first-child {
+    outline: green 1px solid;
     align-self: flex-end;
-    padding-bottom: 250px;
+    /* display: flex; */
+    line-height: 0px;
+
 }
+
+
 
 .button-menu {
     border: none;
-    margin-right: 1em;
-    margin-top: 1.5em;
+
     position: relative;
     cursor: pointer;
-    font-size: 24px;
-    width: 1em;
-    height: 1em;
-    border-radius: 5px;
-    /* border: red 1px solid; */
+    width: 20px;
+    height: 20px;
+    
+    
+    
+
     background-color: transparent;
     text-indent: -9999px;
 
@@ -102,11 +112,11 @@ body {
 .visually-hidden {
   
     position: absolute;
-    width: 1em;
+    width: 20px;
     height: 3px;
     border-radius: 5px;
     background-color: #ffffff;
-    top: 10px;
+    top: 9px;
     left: 0px;
 
   }
@@ -114,11 +124,12 @@ body {
 .button-menu::before {
     position: absolute;
     content: '';
-    top: 0px;
+    
     background-color: #ffffff;
-    width: 1em;
+    width: 20px;
     height: 3px;
     border-radius: 5px;
+    top: 0px;
     left: 0px;
 
 }
@@ -126,24 +137,30 @@ body {
 .button-menu::after {
     position: absolute;
     content: '';
-    bottom: 0px;
+    
     background-color: #ffffff;
-    width: 1em;
+    width: 20px;
     height: 3px;
     border-radius: 5px;
+    bottom: 0px;
     left: 0px;
 }
 
 
 
 .logo {
+    margin-top: 175px;
+    margin-bottom: 27px;
     display: block;
     width: 270px;
  outline: red solid 1px;
 }
 
 .intro {
-    margin-top: 20%;
+    font-size: 26px;
+    max-width: 15em;
+    /* padding-left: 25px;
+    padding-right: 25px; */
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
