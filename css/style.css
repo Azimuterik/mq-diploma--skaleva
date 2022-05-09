@@ -53,6 +53,8 @@ body {
     background-color: #666666;
     position: relative;
     z-index: 0;
+
+    margin-bottom: 40px; /* отодвигаем хедер от следующих блоков */
 }
 
 .header::before {
@@ -167,3 +169,128 @@ body {
     position: relative;
     z-index: 10;
 }
+
+/* ТРЕНДЫ */
+
+.title-section {
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    /* line-height: 0px; */
+
+    margin-bottom: 35px; /* отодвигаем от соседа */
+
+    position: relative;  /* для псевдо ::after */
+}
+
+.title-section::after {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 5px;
+    background-color: #b59f5b;
+    top: 29px;
+    left: calc(50% - 70px / 2);
+}
+
+.post-trends {
+    height: 230px;
+    background-image: url(../images/trend1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eff6f1;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 5px;
+
+    
+}
+
+.post-trends::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background-color: #000000;
+    
+    padding: 20px;
+    opacity: 0.6;
+    z-index: 1;
+} 
+
+.post-trend-content {
+    height: 100%;
+    display: flex;
+}
+
+
+.trend-preview {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+
+.post-trends-container {
+    border: rgb(181, 159, 91, 0.6) solid 3px;
+    position: absolute;
+    z-index: 10;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    padding: 38px 20px 25px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+
+.categories {
+    list-style: none;
+    display: flex;
+    line-height: 0;
+    margin-bottom: 12px;
+    
+    
+} 
+
+
+
+.category-item {
+    margin-right: 20px;
+}
+
+.category-link {
+    color: #b59f5b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.category-link:hover {
+    text-decoration: underline;
+    
+}
+
+
+.title-trends {
+    line-height: 1.2;
+
+}
+
+.title-trends-link {
+    font-size: 16px;
+    font-weight: 700;
+    
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
