@@ -294,3 +294,81 @@ body {
     text-decoration: none;
     text-transform: uppercase;
 } 
+
+/* поле main */
+
+.main-container {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column; /* для мобил, перенести в медиазапрос или составить для других устройств */
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column; /* для мобил, перенести в медиазапрос или составить для других устройств */
+
+}
+
+.current-post {
+    /* width: calc(100% - 30px); */
+    padding: 33px 15px 0px;
+    
+}
+
+.current-post-pic {
+    max-width: 100%;
+}
+
+.current-post-container {
+    border-bottom: #eeeeee solid 4px;
+    padding: 15px 0px 20px;
+
+    
+}
+
+.title-current-post {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 16px; /* для мобил, перенести в медиазапрос или составить для других устройств */
+    line-height: 1.2;
+    margin-bottom: 14px;/* для мобил, перенести в медиазапрос или составить для других устройств */
+    margin-top: 20px;
+}
+
+
+.title-post-link, .title-latest-link {
+    text-decoration: none;
+    color: #000000;
+  } 
+  
+  .title-post-link:hover, .title-latest-link:hover {
+    color: #b59f5b;
+  }
+  
+  
+  .time {
+  
+    color: #888888;
+    font-size: 12px;
+    margin-right: 8px;
+    
+  }
+  .author {
+  
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .current-post-texts {
+      margin-right: 3px;
+      display: flex;
+      flex-direction: column;
+    margin-top: 6px;
+  }
+
+  .current-post-text {
+    margin-top: 6px;
+      font-size: 14px;
+      line-height: 1.4;
+  }
