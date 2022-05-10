@@ -202,7 +202,9 @@ body {
     background-color: #eff6f1;
     position: relative;
     z-index: 0;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    /* margin-top: 3px; */
+
 
     
 }
@@ -301,12 +303,17 @@ body {
     margin-top: 5px;
     display: flex;
     flex-direction: column; /* для мобил, перенести в медиазапрос или составить для других устройств */
+    
+}
+
+.post-list-container {
+    /* margin-bottom: 35px; */
 }
 
 .post-list {
     display: flex;
     flex-direction: column; /* для мобил, перенести в медиазапрос или составить для других устройств */
-
+    margin-bottom: 40px;
 }
 
 .current-post {
@@ -372,3 +379,22 @@ body {
       font-size: 14px;
       line-height: 1.4;
   }
+
+.latest-post-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px 20px;
+}
+
+.latest-post {
+    margin-left: 15px;
+}
+
+.title-latest-post {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.2;
+    margin-bottom: 14px;/* для мобил, перенести в медиазапрос или составить для других устройств */
+}
+
