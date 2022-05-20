@@ -496,7 +496,14 @@ body {
   }
   
   .subscribe {
-    margin-top: 61px;
+    margin-top: 39px;
+     
+  }
+
+  .subscribe-container {
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
      
   }
   
@@ -505,11 +512,12 @@ body {
     margin-bottom: 29px;
   }
   .field-subscribe {
-    margin-top: 5px;
+    margin-top: 8px;
+
     border: none;
     padding: 15px 13px 19px 18px;
     background-color: #f4f7f6;
-    width: 270px;
+    width: 100%;
     height: 48px;
     
     font-size: 13px;
@@ -530,7 +538,7 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     padding: 13px 41px;
-    width: 270px;
+    width: 100%;
     height: 48px;
     cursor: pointer;
   }
@@ -539,11 +547,13 @@ body {
   }
   
   .site-bar-tags {
-    margin-top: 60px;
+    margin-top: 39px;
   }
   
   .tags-container {
     margin-top: 32px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
   .tags-list {
     display: flex;
@@ -579,9 +589,15 @@ body {
   }
   
   .site-bar-topics {
-    margin-top: 55px;
+    margin-top: 33px;
     }
   
+.topic-container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
   .topic-list {
     list-style: none;
     
@@ -593,7 +609,7 @@ body {
     position: relative;
     
     padding-bottom: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   
   .topic-item:after {
@@ -635,3 +651,200 @@ body {
     
   }
   
+
+  .products {
+    margin-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    /* position: relative; */
+  }
+  
+  .product-container:nth-child(n + 3) {
+    margin-top: 23px;
+  }
+
+  .product-pic {
+    width: calc(100% - 45px);
+    background-color: #f4f7f6;
+  }
+
+  .product-data-container {
+    position: relative;
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    
+  }
+
+  .product-data-container::before {
+    content: "";
+    position: absolute;
+    border: rgb(181, 159, 91, 0.6) solid 3px;
+    top: -32px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    pointer-events: none;
+  }
+
+.title-product {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.product-content {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.product-link {
+  color: #b59f5b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.product-link:hover {
+  text-decoration: underline;
+  /* color: red; */
+  
+  
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 11px;
+  
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-size: 14px;
+  line-height: 0.5;
+}
+
+.new-price {
+  text-decoration: line-through;
+  font-size: 20px;
+}
+
+.button-shop {
+  background-color: #b59f5b;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 13px 0px;
+    width: 49%;
+    height: 48px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-shop:hover {
+  background-color: #323232;
+  
+}
+
+.footer {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 42px;
+  margin-bottom: 40px;
+  
+}
+.footer-container {
+  
+  background-color: #f4f6f7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  margin-bottom: 44px;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+  
+  justify-content: center;
+  margin-left: 5px;
+  
+}
+
+.social {
+  margin-right: 25px;
+
+}
+
+.social-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-size: 21px 21px;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  
+}
+
+.icon-twitter {
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+  background-position: center center;
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+}
+
+.icon-pinteres {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+}
+
+.icon-facebook {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg");
+}
+
+.icon-instagram {
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg");
+}
+
+.icon-tumblr {
+  
+  background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+}
+
+.copyright {
+
+  color: #999999;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+
+  
+  
+}
